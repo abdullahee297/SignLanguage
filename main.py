@@ -6,9 +6,7 @@ import mediapipe as mp
 from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 
-from xyz import BaseOptions 
-
-base = python.BaseOptions
+BaseOptions = python.BaseOptions
 HandLandmarker = vision.HandLandmarker
 HandLandmarkerOptions = vision.HandLandmarkerOptions
 VisionRunningMode = vision.RunningMode
